@@ -21,15 +21,15 @@
 
 ## Tasks
 
-- [ ] 1.0 Set up financial data models and CSV data processing
-  - [ ] 1.1 Create TypeScript interfaces for financial metrics (Net Trading Income, Other Income, Total Income, Operating Expense, Operating Margin, Non Operating Expense, Profit Before Tax, Tax, Profit After Tax, Capital, Return on Equity)
-  - [ ] 1.2 Define interfaces for Country and Profit Center data structures based on CSV columns
-  - [ ] 1.3 Create CSV parser service to load and process the static financial data from q4_2024_financial_data_200k.csv
-  - [ ] 1.4 Implement data aggregation functions to calculate country-level metrics from transaction-level CSV data
-  - [ ] 1.5 Implement data aggregation functions to calculate profit center metrics (D1, IXO, FICC, SSO) for each country
-  - [ ] 1.6 Create time series data structure to store monthly aggregated values
-  - [ ] 1.7 Set up Svelte store to manage financial data state and selected filters
-  - [ ] 1.8 Create utility functions for currency formatting (K for thousands) and percentage calculations
+- [x] 1.0 Set up financial data models and CSV data processing
+  - [x] 1.1 Create TypeScript interfaces for financial metrics (Net Trading Income, Other Income, Total Income, Operating Expense, Operating Margin, Non Operating Expense, Profit Before Tax, Tax, Profit After Tax, Capital, Return on Equity)
+  - [x] 1.2 Define interfaces for Country and Profit Center data structures based on CSV columns
+  - [x] 1.3 Create CSV parser service to load and process the static financial data from q4_2024_financial_data_200k.csv
+  - [x] 1.4 Implement data aggregation functions to calculate country-level metrics from transaction-level CSV data
+  - [x] 1.5 Implement data aggregation functions to calculate profit center metrics (D1, IXO, FICC, SSO) for each country
+  - [x] 1.6 Create time series data structure to store monthly aggregated values
+  - [x] 1.7 Set up Svelte store to manage financial data state and selected filters
+  - [x] 1.8 Create utility functions for currency formatting (K for thousands) and percentage calculations
 
 - [ ] 2.0 Create country-level financial overview interface
   - [ ] 2.1 Build main dashboard route with table layout structure
