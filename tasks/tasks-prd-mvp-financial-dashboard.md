@@ -31,14 +31,14 @@
   - [x] 1.7 Set up Svelte store to manage financial data state and selected filters
   - [x] 1.8 Create utility functions for currency formatting (K for thousands) and percentage calculations
 
-- [ ] 2.0 Create country-level financial overview interface
-  - [ ] 2.1 Build main dashboard route with table layout structure
-  - [ ] 2.2 Create financial table component with fixed-width columns and right-aligned numbers
-  - [ ] 2.3 Implement sticky table headers for scrolling
-  - [ ] 2.4 Add zebra striping for improved row tracking
-  - [ ] 2.5 Display all required financial metrics as columns
-  - [ ] 2.6 Add Grand Total row at bottom of table
-  - [ ] 2.7 Style interface with Optiver branding (dark blue header) and high contrast design
+- [x] 2.0 Create country-level financial overview interface
+  - [x] 2.1 Build main dashboard route with table layout structure
+  - [x] 2.2 Create financial table component with fixed-width columns and right-aligned numbers
+  - [x] 2.3 Implement sticky table headers for scrolling
+  - [x] 2.4 Add zebra striping for improved row tracking
+  - [x] 2.5 Display all required financial metrics as columns
+  - [x] 2.6 Add Grand Total row at bottom of table
+  - [x] 2.7 Style interface with Optiver branding (dark blue header) and high contrast design
 
 - [ ] 3.0 Implement time period filtering functionality
   - [ ] 3.1 Create time period filter dropdown component with Daily, Weekly, Monthly options
