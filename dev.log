@@ -1,0 +1,95 @@
+
+  VITE v6.1.1  ready in 475 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+SvelteKitError: Not found: /dashboard/au
+    at resolve (eval at runInlinedModule (file:///Users/rajan/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/repo/svelte-tailwind4-starter/node_modules/vite/dist/node/module-runner.js:1049:11), <anonymous>:438:18)
+    at resolve (eval at runInlinedModule (file:///Users/rajan/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/repo/svelte-tailwind4-starter/node_modules/vite/dist/node/module-runner.js:1049:11), <anonymous>:273:34)
+    at Object.eval [as handle] (eval at runInlinedModule (file:///Users/rajan/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/repo/svelte-tailwind4-starter/node_modules/vite/dist/node/module-runner.js:1049:11), <anonymous>:78:56)
+    at respond (eval at runInlinedModule (file:///Users/rajan/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/repo/svelte-tailwind4-starter/node_modules/vite/dist/node/module-runner.js:1049:11), <anonymous>:271:42)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  status: 404,
+  text: 'Not Found'
+}
+10:48:16 PM [vite] (client) page reload static/docs/preamble/process-task-list.md
+10:48:16 PM [vite] (ssr) page reload static/docs/preamble/process-task-list.md
+10:48:18 PM [vite] (client) page reload static/docs/preamble/generate-tasks.md
+10:48:18 PM [vite] (ssr) page reload static/docs/preamble/generate-tasks.md
+10:48:18 PM [vite] (client) page reload static/docs/preamble/create-prd.md
+10:48:18 PM [vite] (ssr) page reload static/docs/preamble/create-prd.md
+10:48:18 PM [vite] (client) page reload .svelte-kit/generated/root.js
+10:48:18 PM [vite] (ssr) page reload .svelte-kit/generated/root.js
+10:48:18 PM [vite] (client) page reload .svelte-kit/generated/client/app.js
+10:48:18 PM [vite] (client) page reload .svelte-kit/generated/client/matchers.js
+10:48:18 PM [vite] (client) page reload .svelte-kit/generated/client/nodes/0.js
+10:48:18 PM [vite] (client) page reload .svelte-kit/generated/client/nodes/3.js
+10:48:18 PM [vite] (client) page reload .svelte-kit/generated/client/nodes/1.js
+10:48:18 PM [vite] (ssr) page reload .svelte-kit/generated/server/internal.js
+10:48:52 PM [vite] (client) page reload components.json
+10:48:52 PM [vite] (ssr) page reload components.json
+10:49:06 PM [vite] (client) hmr update /src/routes/dashboard/+page.svelte, /src/app.css, /src/components/financial-table/financial-table.svelte
+10:49:06 PM [vite] (ssr) page reload src/core/utils/financial-calculations.ts
+10:49:19 PM [vite] (client) hmr update /src/app.css, /src/components/financial-table/financial-table.svelte
+10:49:19 PM [vite] (ssr) page reload src/core/utils/index.ts
+10:49:19 PM [vite] (client) hmr update /src/routes/dashboard/+page.svelte, /src/app.css
+10:49:19 PM [vite] (ssr) page reload src/components/financial-table/index.ts
+10:49:43 PM [vite] (client) page reload src/components/alert/Alert.svelte
+10:49:43 PM [vite] (ssr) page reload src/components/alert/Alert.svelte
+10:50:34 PM [vite] (client) page reload static/docs/preamble/MVP Clarifying Questions and ans.md
+10:50:34 PM [vite] (ssr) page reload static/docs/preamble/MVP Clarifying Questions and ans.md
+10:50:34 PM [vite] (client) hmr update /src/routes/dashboard/+page.svelte, /src/app.css
+10:50:34 PM [vite] (ssr) page reload src/components/financial-table/index.ts
+10:50:40 PM [vite] (client) hmr update /src/routes/dashboard/+page.svelte, /src/app.css
+10:50:40 PM [vite] (ssr) page reload src/routes/dashboard/+page.svelte
+10:50:46 PM [vite] (client) hmr update /src/routes/dashboard/+page.svelte, /src/app.css
+10:50:46 PM [vite] (ssr) page reload src/routes/dashboard/+page.svelte
+10:50:57 PM [vite] (client) page reload static/docs/prd-mvp-financial-dashboard.md
+10:50:57 PM [vite] (ssr) page reload static/docs/prd-mvp-financial-dashboard.md
+10:51:11 PM [vite] (client) page reload tasks/tasks-prd-mvp-financial-dashboard.md
+10:51:11 PM [vite] (ssr) page reload tasks/tasks-prd-mvp-financial-dashboard.md
+10:51:12 PM [vite] (client) hmr update /src/routes/dashboard/+page.svelte, /src/app.css
+10:51:12 PM [vite] (ssr) page reload src/components/financial-table/index.ts
+10:51:12 PM [vite] (client) page reload static/docs/preamble/process-task-list.md
+10:51:12 PM [vite] (ssr) page reload static/docs/preamble/process-task-list.md
+10:51:20 PM [vite] (client) page reload tasks/tasks-prd-mvp-financial-dashboard.md
+10:51:20 PM [vite] (ssr) page reload tasks/tasks-prd-mvp-financial-dashboard.md
+10:52:56 PM [vite] (client) hmr update /src/routes/dashboard/+page.svelte, /src/app.css
+10:52:56 PM [vite] (ssr) page reload src/core/services/csv-parser.ts
+10:52:57 PM [vite] (client) page reload CLAUDE.md
+10:52:57 PM [vite] (ssr) page reload CLAUDE.md
+10:52:57 PM [vite] (client) page reload src/core/types/financial.ts
+10:52:57 PM [vite] (ssr) page reload src/core/types/financial.ts
+10:52:57 PM [vite] (client) page reload src/routes/+page.svelte
+10:52:57 PM [vite] (ssr) page reload src/routes/+page.svelte
+10:53:09 PM [vite] (client) page reload static/docs/preamble/create-prd MVP GEMINI.md
+10:53:09 PM [vite] (ssr) page reload static/docs/preamble/create-prd MVP GEMINI.md
+10:53:10 PM [vite] (client) page reload static/docs/preamble/generate-tasks.md
+10:53:10 PM [vite] (ssr) page reload static/docs/preamble/generate-tasks.md
+10:53:10 PM [vite] (client) page reload static/docs/preamble/create-prd.md
+10:53:10 PM [vite] (ssr) page reload static/docs/preamble/create-prd.md
+10:53:24 PM [vite] (client) hmr update /src/routes/dashboard/+page.svelte, /src/app.css
+10:53:24 PM [vite] (ssr) page reload src/core/stores/financial.svelte.ts
+10:53:24 PM [vite] (client) page reload tasks/tasks-prd-mvp-financial-dashboard.md
+10:53:24 PM [vite] (ssr) page reload tasks/tasks-prd-mvp-financial-dashboard.md
+10:53:38 PM [vite] (client) hmr update /src/routes/dashboard/+page.svelte, /src/app.css, /src/components/financial-table/financial-table.svelte, /src/components/financial-table/financial-table-transposed.svelte
+10:53:38 PM [vite] (ssr) page reload src/core/utils/financial-calculations.ts
+10:53:52 PM [vite] (client) page reload tasks/financial-dashboard-implementation-log.md
+10:53:52 PM [vite] (ssr) page reload tasks/financial-dashboard-implementation-log.md
+10:54:06 PM [vite] (client) page reload static/docs/preamble/requirements for prd.md
+10:54:06 PM [vite] (ssr) page reload static/docs/preamble/requirements for prd.md
+10:57:55 PM [vite] (client) page reload generate_financial_data.py
+10:57:55 PM [vite] (ssr) page reload generate_financial_data.py
+11:02:38 PM [vite] (client) hmr update /src/routes/dashboard/+page.svelte, /src/app.css, /src/components/financial-table/financial-table.svelte, /src/components/financial-table/financial-table-transposed.svelte
+11:02:38 PM [vite] (ssr) page reload src/core/utils/financial-calculations.ts
+SvelteKitError: Not found: /dashboard/australia
+    at resolve (eval at runInlinedModule (file:///Users/rajan/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/repo/svelte-tailwind4-starter/node_modules/vite/dist/node/module-runner.js:1049:11), <anonymous>:438:18)
+    at resolve (eval at runInlinedModule (file:///Users/rajan/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/repo/svelte-tailwind4-starter/node_modules/vite/dist/node/module-runner.js:1049:11), <anonymous>:273:34)
+    at Object.eval [as handle] (eval at runInlinedModule (file:///Users/rajan/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/repo/svelte-tailwind4-starter/node_modules/vite/dist/node/module-runner.js:1049:11), <anonymous>:78:56)
+    at respond (eval at runInlinedModule (file:///Users/rajan/Library/Mobile%20Documents/com%7Eapple%7ECloudDocs/repo/svelte-tailwind4-starter/node_modules/vite/dist/node/module-runner.js:1049:11), <anonymous>:271:42)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  status: 404,
+  text: 'Not Found'
+}
+11:04:11 PM [vite] (client) hmr update /src/routes/dashboard/+page.svelte, /src/app.css, /src/components/financial-table/financial-table.svelte, /src/components/financial-table/financial-table-transposed.svelte
+11:04:11 PM [vite] (ssr) page reload src/core/utils/financial-calculations.ts

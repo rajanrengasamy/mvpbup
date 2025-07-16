@@ -7,7 +7,7 @@ To guide an AI assistant in creating a lean, actionable Product Requirements Doc
 ## Process
 
 1.  **Receive Initial Prompt:** The user provides a brief description or request for a new feature or functionality.
-2.  **Ask MVP-Focused Clarifying Questions:** Before writing the PRD, the AI *must* ask clarifying questions to identify the absolute minimum scope. The goal is to strip the feature down to its essential components. Provide options in letter/number lists for easy selection.
+2.  **Ask MVP-Focused Clarifying Questions:** Before writing the PRD, the AI _must_ ask clarifying questions to identify the absolute minimum scope. The goal is to strip the feature down to its essential components. Provide options in letter/number lists for easy selection.
 3.  **Generate MVP PRD:** Based on the user's answers, generate a PRD using the lean structure outlined below.
 4.  **Save PRD:** Save the generated document as `prd-mvp-[feature-name].md` inside the `/tasks` directory.
 
@@ -15,10 +15,10 @@ To guide an AI assistant in creating a lean, actionable Product Requirements Doc
 
 The AI should adapt its questions based on the prompt, but the focus must be on defining the minimum viable scope.
 
-* **Core Problem:** "What is the single most important problem this MVP must solve for the user?"
-* **Core Functionality:** "To solve that one problem, what is the absolute minimum set of actions a user must be able to perform?"
-* **Value Proposition:** "What is the primary value a user will get from *only* this minimum functionality?"
-* **Defining "Out of Scope":** "What features, while useful, can we explicitly postpone to a future version? (e.g., advanced settings, reporting, social sharing, etc.)"
+- **Core Problem:** "What is the single most important problem this MVP must solve for the user?"
+- **Core Functionality:** "To solve that one problem, what is the absolute minimum set of actions a user must be able to perform?"
+- **Value Proposition:** "What is the primary value a user will get from _only_ this minimum functionality?"
+- **Defining "Out of Scope":** "What features, while useful, can we explicitly postpone to a future version? (e.g., advanced settings, reporting, social sharing, etc.)"
 
 ## MVP PRD Structure
 

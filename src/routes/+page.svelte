@@ -28,9 +28,9 @@
       <h1 class="text-2xl font-bold">Home page</h1>
       <AppButton
         class="text-white"
-        variant="black"
         disabled={loading}
         onclick={() => refreshData()}
+        variant="black"
       >
         {loading ? 'Refreshing...' : 'Refresh Data'}
       </AppButton>
@@ -82,7 +82,7 @@
     <div class="flex">
       <AppDialog.Root>
         <AppDialog.Trigger class=" w-auto cursor-pointer rounded-md bg-red-400 p-3 text-white"
-          >Open Dialog</AppDialog.Trigger
+        >Open Dialog</AppDialog.Trigger
         >
         <AppDialog.Content>
           <AppDialog.Header>
