@@ -1,0 +1,10 @@
+- Net Trading Income = `[Gross Trading Income] + [Direct Trading Expense]`
+- Other Income = `IF CONTAINS([Nspb L3 Name],'Other Income') then 'other income' else 0`
+- total income = `[Net Trading Income] + [Other Income]`
+- Operating expense = `IF [Nspb L2 Name] = 'Operating expenses' then 'Operating expenses' else 0`
+- Non Operating Expense = `IF CONTAINS([Nspb L2 Name],'Non-operating ex') THEN 'Non Operating Expense' else 0`
+- Operating Margin = `[Total Income] + [Operating Expense]`
+- Profit Before Tax = `[Operating Margin] + [Non Operating Expense]`
+- Tax = `IF [Nspb L2 Name] = 'Income tax' THEN 'Income tax' else 0`
+- Captial = make some numbers 
+- Retune on Equity calculate something meaningful

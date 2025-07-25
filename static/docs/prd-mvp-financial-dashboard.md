@@ -49,8 +49,23 @@ As a financial analyst or business leader at Optiver, I want to view aggregated 
    - Show monthly breakdown columns when time series view is enabled
    - Note: Current data source contains expense data only (no revenue data)
 
-6. **Basic Performance Indicators**
-   - Calculate and display Return on Equity percentage for each entity
+6. **Calculations and Formulas**
+
+   The following formulas must be implemented for calculating financial metrics:
+   
+   - **Net Trading Income** = `[Gross Trading Income] + [Direct Trading Expense]`
+   - **Other Income** = `IF CONTAINS([Nspb L3 Name],'Other Income') then [value] else 0`
+   - **Total Income** = `[Net Trading Income] + [Other Income]`
+   - **Operating Expense** = `IF [Nspb L2 Name] = 'Operating expenses' then [value] else 0`
+   - **Non Operating Expense** = `IF CONTAINS([Nspb L2 Name],'Non-operating ex') THEN [value] else 0`
+   - **Operating Margin** = `[Total Income] + [Operating Expense]`
+   - **Profit Before Tax** = `[Operating Margin] + [Non Operating Expense]`
+   - **Tax** = `IF [Nspb L2 Name] = 'Income tax' THEN [value] else 0`
+   - **Capital** = Pre-defined values per entity (to be provided)
+   - **Return on Equity** = `([Profit After Tax] / [Capital]) * 100`
+
+7. **Basic Performance Indicators**
+   - Calculate and display Return on Equity percentage for each entity using the formula above
    - Show Operating Margin for quick profitability assessment
 
 ## Non-Goals (What's Explicitly Out of Scope)

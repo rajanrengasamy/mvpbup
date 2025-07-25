@@ -44,29 +44,45 @@
   - [x] 2.7 Style interface with Optiver branding (dark blue header) and high contrast design
   - [x] 2.8 Create transposed table view with metrics as rows and countries as columns
 
-- [ ] 3.0 Implement time period filtering functionality
+- [ ] 3.0 Implement financial calculation formulas
 
-  - [ ] 3.1 Create time period filter dropdown component with Daily, Weekly, Monthly options
-  - [ ] 3.2 Set default view to current month-to-date
-  - [ ] 3.3 Implement filter logic in CSV parser service to filter data by date ranges
-  - [ ] 3.4 Add period comparison functionality (current vs. previous period)
-  - [ ] 3.5 Update table to show comparison data when enabled
-  - [ ] 3.6 Connect filter component to financial data store
+  - [ ] 3.1 Create formula calculation engine in `financial-calculations.ts`
+  - [ ] 3.2 Implement Net Trading Income formula: `[Gross Trading Income] + [Direct Trading Expense]`
+  - [ ] 3.3 Implement Other Income formula: `IF CONTAINS([Nspb L3 Name],'Other Income') then [value] else 0`
+  - [ ] 3.4 Implement Total Income formula: `[Net Trading Income] + [Other Income]`
+  - [ ] 3.5 Implement Operating Expense formula: `IF [Nspb L2 Name] = 'Operating expenses' then [value] else 0`
+  - [ ] 3.6 Implement Non Operating Expense formula: `IF CONTAINS([Nspb L2 Name],'Non-operating ex') THEN [value] else 0`
+  - [ ] 3.7 Implement Operating Margin formula: `[Total Income] + [Operating Expense]`
+  - [ ] 3.8 Implement Profit Before Tax formula: `[Operating Margin] + [Non Operating Expense]`
+  - [ ] 3.9 Implement Tax formula: `IF [Nspb L2 Name] = 'Income tax' THEN [value] else 0`
+  - [ ] 3.10 Define Capital values per entity (pre-defined static values)
+  - [ ] 3.11 Implement Return on Equity formula: `([Profit After Tax] / [Capital]) * 100`
+  - [ ] 3.12 Write unit tests for all formula calculations
+  - [ ] 3.13 Integrate formulas with CSV data processing to calculate derived metrics
 
-- [ ] 4.0 Build drill-down navigation to profit center view
+- [ ] 4.0 Implement time period filtering functionality
 
-  - [ ] 4.1 Make country rows clickable with hover state indication
-  - [ ] 4.2 Create dynamic route for country detail page
-  - [ ] 4.3 Implement profit center breakdown table with same financial metrics
-  - [ ] 4.4 Add breadcrumb navigation component for easy return to country view
-  - [ ] 4.5 Pass selected country context to profit center view
-  - [ ] 4.6 Maintain selected time period filter when navigating
+  - [ ] 4.1 Create time period filter dropdown component with Daily, Weekly, Monthly options
+  - [ ] 4.2 Set default view to current month-to-date
+  - [ ] 4.3 Implement filter logic in CSV parser service to filter data by date ranges
+  - [ ] 4.4 Add period comparison functionality (current vs. previous period)
+  - [ ] 4.5 Update table to show comparison data when enabled
+  - [ ] 4.6 Connect filter component to financial data store
 
-- [ ] 5.0 Add time series analysis features
-  - [ ] 5.1 Extend data models to include monthly breakdown for each metric
-  - [ ] 5.2 Add toggle component for time series/trend view
-  - [ ] 5.3 Calculate month-over-month (MoM) percentage changes for each metric
-  - [ ] 5.4 Implement color coding logic (green for positive trends, red for negative trends)
-  - [ ] 5.5 Add trend highlighting for significant monthly changes (>10%)
-  - [ ] 5.6 Create sparkline charts or trend indicators for visualizing monthly trends
-  - [ ] 5.7 Update table component to display monthly columns (Oct, Nov, Dec) when time series view is enabled
+- [ ] 5.0 Build drill-down navigation to profit center view
+
+  - [ ] 5.1 Make country rows clickable with hover state indication
+  - [ ] 5.2 Create dynamic route for country detail page
+  - [ ] 5.3 Implement profit center breakdown table with same financial metrics
+  - [ ] 5.4 Add breadcrumb navigation component for easy return to country view
+  - [ ] 5.5 Pass selected country context to profit center view
+  - [ ] 5.6 Maintain selected time period filter when navigating
+
+- [ ] 6.0 Add time series analysis features
+  - [ ] 6.1 Extend data models to include monthly breakdown for each metric
+  - [ ] 6.2 Add toggle component for time series/trend view
+  - [ ] 6.3 Calculate month-over-month (MoM) percentage changes for each metric
+  - [ ] 6.4 Implement color coding logic (green for positive trends, red for negative trends)
+  - [ ] 6.5 Add trend highlighting for significant monthly changes (>10%)
+  - [ ] 6.6 Create sparkline charts or trend indicators for visualizing monthly trends
+  - [ ] 6.7 Update table component to display monthly columns (Oct, Nov, Dec) when time series view is enabled
